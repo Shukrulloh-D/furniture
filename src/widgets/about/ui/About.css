@@ -5,18 +5,18 @@
   align-items: center;
 }
 
-.about__image-container {
+.about-image-container {
   flex: 1;
   position: relative;
 }
 
-.about__img {
+.about-img {
   width: 80%;
   position: relative;
   z-index: 2;
 }
 
-.about__pattern {
+.about-pattern {
   position: absolute;
   bottom: -20px;
   left: -20px;
@@ -27,11 +27,11 @@
   z-index: 1;
 }
 
-.about__content {
+.about-content {
   flex: 1;
 }
 
-.about__title {
+.about-title {
   font-size: 42px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -42,7 +42,7 @@
   -webkit-text-stroke: 1px #ccc;
 }
 
-.about__desc {
+.about-desc {
   color: #666;
   line-height: 1.6;
   margin-bottom: 30px;

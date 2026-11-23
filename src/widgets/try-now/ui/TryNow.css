@@ -6,21 +6,21 @@
   position: relative;
 }
 
-.try-now__content {
+.try-now-content {
   flex: 1;
 }
 
-.try-now__title {
+.try-now-title {
   font-size: 56px;
   line-height: 1.2;
   margin-bottom: 30px;
 }
 
-.try-now__image {
+.try-now-image {
   flex: 1;
 }
 
-.try-now__image img {
+.try-now-image img {
   width: 100%;
   border-radius: 8px;
 }

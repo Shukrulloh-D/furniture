@@ -1,14 +1,14 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 export const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <div className="footer__col">
+      <div className="footer-col">
         <h3>Get's your discount</h3>
         <p>Check now</p>
       </div>
-      <div className="footer__col">
+      <div className="footer-col">
         <h4>Our services</h4>
         <ul>
           <li>Collection</li>
@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
           <li>Estimates</li>
         </ul>
       </div>
-      <div className="footer__col">
+      <div className="footer-col">
         <h4>Company</h4>
         <ul>
           <li>Terms of use</li>
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
           <li>Careers</li>
         </ul>
       </div>
-      <div className="footer__col">
+      <div className="footer-col">
         <h4>Contact</h4>
         <ul>
           <li>Furniture20@furniture.com</li>

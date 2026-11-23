@@ -5,38 +5,38 @@
   align-items: center;
 }
 
-.hero__content {
+.hero-content {
   flex: 1;
 }
 
-.hero__subtitle {
+.hero-subtitle {
   display: block;
   font-size: 14px;
-  color: #FF5A5F;
+  color: #ff5a5f;
   letter-spacing: 1px;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-.hero__title {
+.hero-title {
   font-size: 56px;
   line-height: 1.1;
   font-weight: 600;
   margin-bottom: 40px;
 }
 
-.hero__actions {
+.hero-actions {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
-.hero__image {
+.hero-image {
   flex: 1;
   position: relative;
 }
 
-.hero__image img {
+.hero-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -45,8 +45,8 @@
 
 .play-icon {
   font-size: 12px;
-  color: #FF5A5F;
-  border: 1px solid #FF5A5F;
+  color: #ff5a5f;
+  border: 1px solid #ff5a5f;
   border-radius: 50%;
   padding: 4px;
   width: 20px;

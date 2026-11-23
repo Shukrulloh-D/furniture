@@ -6,17 +6,17 @@
   margin-top: 60px;
 }
 
-.footer__col h3 {
+.footer-col h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.footer__col h4 {
+.footer-col h4 {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-.footer__col ul li {
+.footer-col ul li {
   font-size: 14px;
   color: #666;
   margin-bottom: 10px;
