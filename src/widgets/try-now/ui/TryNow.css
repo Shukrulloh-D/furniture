@@ -1,0 +1,26 @@
+.try-now {
+  display: flex;
+  padding: 80px 60px;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.try-now__content {
+  flex: 1;
+}
+
+.try-now__title {
+  font-size: 56px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.try-now__image {
+  flex: 1;
+}
+
+.try-now__image img {
+  width: 100%;
+  border-radius: 8px;
+}

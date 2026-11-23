@@ -1,0 +1,50 @@
+.about {
+  display: flex;
+  padding: 80px 60px;
+  gap: 80px;
+  align-items: center;
+}
+
+.about__image-container {
+  flex: 1;
+  position: relative;
+}
+
+.about__img {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.about__pattern {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(#ccc 1px, transparent 1px);
+  background-size: 10px 10px;
+  z-index: 1;
+}
+
+.about__content {
+  flex: 1;
+}
+
+.about__title {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #ccc;
+}
+
+.about__desc {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 400px;
+}

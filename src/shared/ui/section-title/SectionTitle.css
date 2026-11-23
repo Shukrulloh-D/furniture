@@ -1,0 +1,35 @@
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title__subtitle {
+  display: block;
+  font-size: 16px;
+  color: #FF5A5F;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.section-title__title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #333;
+  position: relative;
+}
+
+.section-title__title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #FF5A5F;
+  margin-top: 16px;
+}
+
+.section-title--center {
+  text-align: center;
+}
+.section-title--center .section-title__title::after {
+  margin: 16px auto 0;
+}
